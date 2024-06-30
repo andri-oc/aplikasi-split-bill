@@ -1,6 +1,7 @@
-// import { useState } from 'react'
-
+import FormAddFriend from './component/FormAddFriend';
+import FriendList from './component/FriendList';
 import './index.css'
+
 const initialFriends = [
   {
     id: 118836,
@@ -21,11 +22,15 @@ const initialFriends = [
     balance: 0,
   },
 ];
+
 function App() {
 
   return (
     <div className="app">
-      <div className="sidebar"></div>
+      <div className="sidebar">
+        <FriendList friend={initialFriends}/>
+        <FormAddFriend/>
+      </div>
     </div>
   )
 }

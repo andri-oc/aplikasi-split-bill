@@ -134,8 +134,8 @@ label {
 }
 
 label::first-letter {
-  display: inline-block;
-  margin-right: 4px;
+  /* display: inline-block; */
+  /* margin-right: 4px; */
   font-size: 1.8rem;
 }
 
@@ -168,4 +168,10 @@ form h2 {
   text-transform: uppercase;
   letter-spacing: -0.5px;
   margin-bottom: 1.6rem;
+}
+
+.card {
+  border: 2px solid #b4b4b4;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
 }
