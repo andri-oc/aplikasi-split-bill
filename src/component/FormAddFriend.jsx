@@ -8,6 +8,8 @@ export default function FormAddFriend(){
             <input type="text" />
 
             <button className="button">Tambah</button>
+            
         </form>
+        
     )
 }
